@@ -2,7 +2,7 @@ from valid_word import is_valid_word # DO NOT MODIFY
 
 # Write the get_word function here.
 def get_word(letters, required_letter, used_words):
-  word=input("Enter your word: \n")
+  word=input("Enter your word: \n").upper()
   while word != "END":
     if word not in used_words:
       if len(word)>=4:
