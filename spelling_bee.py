@@ -1,7 +1,7 @@
 # DO NOT REMOVE
-from get_word import get_word                 #
+from get_word import get_word                 
 from score import get_point_value  
-#################################################
+
 
 def spelling_bee():
   letters=input("Welcome to Spelling Bee! Enter your 7 letters, separated by commas: \n")
